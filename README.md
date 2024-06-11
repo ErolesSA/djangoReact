@@ -30,3 +30,16 @@ Respuesta al Frontend:
 
 Django envía una respuesta HTTP en formato JSON.
 React recibe la respuesta y actualiza el estado de la aplicación, lo que a su vez actualiza la interfaz de usuario para reflejar los nuevos datos
+
+
+![1](https://github.com/ErolesSA/djangoReact/assets/68412071/ff3a557a-d150-4d5b-a07a-b82574d165d8)
+
+![2](https://github.com/ErolesSA/djangoReact/assets/68412071/cbb802f2-8300-4e0f-ac6a-c8d6dcb685b7)
+
+![3](https://github.com/ErolesSA/djangoReact/assets/68412071/d4bfab17-a9a0-45e5-bd71-d7129e8d6f26)
+
+![4](https://github.com/ErolesSA/djangoReact/assets/68412071/83eb18bc-ac8d-47e5-a6f6-4d2536347bb6)
+
+
+![5](https://github.com/ErolesSA/djangoReact/assets/68412071/31479409-2c3c-473a-8f28-a63f97fa4e91)
+
