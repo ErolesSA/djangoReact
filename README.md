@@ -2,34 +2,22 @@
 CRUD Django React/vite Mysql
 
 
-Arquitectura Básica de una Aplicación Django y React
-Django (Backend):
+Hello everyone! 🌟
 
-API RESTful: Django se encarga de gestionar la lógica del servidor, interactuar con la base de datos y proporcionar una API RESTful utilizando Django REST Framework.
-Rutas y Vistas: Define las rutas (endpoints) y vistas que manejan las solicitudes HTTP (GET, POST, PUT, DELETE).
-Serializadores: Convierte los datos de los modelos Django a formato JSON para enviarlos al frontend y viceversa.
-Autenticación y Permisos: Gestiona la autenticación de usuarios y permisos para acceder a diferentes partes de la API.
-React (Frontend):
+Today I want to show you the architecture of my project with **Django** and **React**. 🚀
 
-Componentes: Define componentes de interfaz de usuario que se encargan de la presentación y lógica de interacción.
-Estados y Propiedades: Gestiona el estado de la aplicación y la comunicación entre componentes.
-Axios (u otra librería): Hace solicitudes HTTP a la API RESTful de Django para obtener o enviar datos.
-Routing (React Router): Gestiona la navegación entre diferentes vistas de la aplicación.
-Flujo de Trabajo
-Solicitud desde el Frontend:
+🔹 **Django Backend**: Handles server logic with a RESTful API, routes and views for HTTP requests, JSON serializers, and user authentication.
 
-Un usuario interactúa con la interfaz de React (por ejemplo, al hacer clic en un botón para obtener una lista de ítems).
-React realiza una solicitud HTTP (GET, POST, PUT, DELETE) a la API de Django utilizando Axios o Fetch.
-Procesamiento en el Backend:
+🔹 **React Frontend**: Features UI components, state and property management, HTTP requests with Axios, and navigation with React Router.
 
-Django recibe la solicitud en una ruta definida en urls.py.
-La vista correspondiente (definida en views.py) maneja la solicitud.
-Si la solicitud es para obtener datos (GET), la vista consulta la base de datos y utiliza un serializador para convertir los datos en formato JSON.
-Si la solicitud es para crear, actualizar o eliminar datos (POST, PUT, DELETE), la vista valida y procesa los datos, actualiza la base de datos y responde con el resultado.
-Respuesta al Frontend:
+The flow is simple:
+1. **React Interaction**: The user performs actions that generate HTTP requests.
+2. **Django Processing**: The backend receives and handles these requests, interacting with the database and responding with JSON data.
+3. **React Update**: The frontend receives the response and updates the UI.
 
-Django envía una respuesta HTTP en formato JSON.
-React recibe la respuesta y actualiza el estado de la aplicación, lo que a su vez actualiza la interfaz de usuario para reflejar los nuevos datos
+Hope you like it! ✨
+
+#Django #React #CRUD #FullStackDeveloper
 
 
 ![1](https://github.com/ErolesSA/djangoReact/assets/68412071/ff3a557a-d150-4d5b-a07a-b82574d165d8)
